@@ -154,10 +154,10 @@
 		var res = 0;
 		for(count = 0; count < 12; count++) {
 			res = Math.floor(Math.random() * ops.length);
-			var op = ops[item];
+			var op = ops[res];
 		   document.write(count + ": " + item);
 		   document.write("<br />");
-		   delete ops[item];
+		   delete ops[res];
 		}         	
 	  </script>      
       <p>Press F5 for a new list!</p>
