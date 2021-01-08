@@ -156,11 +156,15 @@
 		for(count = 0; count < 12; count++) {
 			res = Math.floor(Math.random() * ops.length);
 			var op = ops[res];
+			if (op == undefined) {
+				count --;
+				continue;
+			}
 		   document.write(count+1 + ": " + op);
 		   document.write("<br />");
 		   delete ops[res];
 		}         	
 	  </script>      
-	   <p>Press F5 for a new list! <b>undefined</b> is a free card and totaly not a bug!</p>
+	   <p>Press F5 for a new list!
    </body>
 </html>
