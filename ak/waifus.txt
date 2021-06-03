@@ -76,6 +76,9 @@ Greyy
 Click
      Default Outfit
      Elite 2 Outfit
+Indigo
+     Default Outfit
+     Elite 2 Outfit
 Jessica
      Default Outfit
      Elite 2 Outfit
@@ -230,6 +233,7 @@ Zima
      Default Outfit
      Elite 2 Outfit
      Ready to Go
+     乌萨斯IO79
 Texas
      Default Outfit
      Elite 2 Outfit
@@ -255,6 +259,7 @@ Whislash
 Franka
      Default Outfit
      Elite 2 Outfit
+     Overload
 Flamebringer
      Default Outfit
      Elite 2 Outfit
@@ -303,6 +308,7 @@ Akafuyu
 Blue Poison
      Default Outfit
      Elite 2 Outfit
+     浅滩律动
 Platinum
      Default Outfit
      Elite 2 Outfit
@@ -465,7 +471,7 @@ Cliffheart
      Default Outfit
      Elite 2 Outfit
      Lone Climber
-     高原访客
+     Highlands Visitor
 Snowsant
      Default Outfit
      Elite 2 Outfit
@@ -495,6 +501,9 @@ Manticore
      Default Outfit
      Elite 2 Outfit
      Invisible Dirge
+Kirara
+     Default Outfit
+     Elite 2 Outfit
 FEater
      Default Outfit
      Elite 2 Outfit
@@ -503,6 +512,9 @@ Robin
      Default Outfit
      Elite 2 Outfit
 Frost
+     Default Outfit
+     Elite 2 Outfit
+Bena
      Default Outfit
      Elite 2 Outfit
 Exusiai
@@ -539,7 +551,7 @@ Siege
 Bagpipe
      Default Outfit
      Elite 2 Outfit
-     皇后一号
+     Queen, No. 1
 Saga
      Default Outfit
      Elite 2 Outfit
@@ -563,6 +575,9 @@ Dusk
      Default Outfit
      Elite 2 Outfit
 Passenger
+     Default Outfit
+     Elite 2 Outfit
+Carnelian
      Default Outfit
      Elite 2 Outfit
 Angelina
@@ -606,6 +621,8 @@ Nightingale
 Kal'tsit
      Default Outfit
      Elite 2 Outfit
+     Dress
+     Maid
 Hoshiguma
      Default Outfit
      Elite 2 Outfit
@@ -641,11 +658,13 @@ SilverAsh
 Thorns
      Default Outfit
      Elite 2 Outfit
+     惬意
 Ch'en
      Default Outfit
      Elite 2 Outfit
      Ageless Afterglow
      Summer Outfit
+     Race Outfit
 Blaze
      Default Outfit
      Elite 2 Outfit
@@ -654,6 +673,7 @@ Blaze
 Surtr
      Default Outfit
      Elite 2 Outfit
+     自由//失效
 Hellagur
      Default Outfit
      Elite 2 Outfit
