@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weedy change-log v1.0.96 Hydro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Weedy change-log v1.0.92 Hydro" />
+</head>
+<body>
+
+  <p><strong>Weedy changelog v1.0.96 Hydro</strong></p>
+  <p>Almost 1 and a half year since the last Update news.  In that time I rewrote ... too much to remember. Updates have been semi automated, a drive failed on my and I had a data loss (thank god I do backups). My next step is to get rid of the middle part with the emulator. Lets see how that goes.</p>
+  <p><strong>Technical Stuff, Daily News:</strong></p>
+  <ul>
+  <li>Fixed an issue where Furniture and Operator skins would not show up for login events.</li>
+  <li>Fixed <code>Pozëmka</code> emotes not showing up on Daily news.</li>
+  <li>Fixed an issue that Daily news would stop working for some servers if someone kicked Weedy from their server.</li>
+  <li>Fixed Log-in Event Rewards not being displayed anymore.<blockquote>
+  <p>Can&#39;t wait for that to break again.</p>
+  </blockquote>
+  </li>
+  <li>Added Handler for Kernel Banner and Kernal Locating Banner. <blockquote>
+  <p>This will be changed again, I hate my solution.</p>
+  </blockquote>
+  </li>
+  <li>Reworked Gamedata Updater to allow for better caching and quickler rebuilding.</li>
+  <li>Added a script for automatic Image extraction from Gamedata.</li>
+  <li><del>Updated Gamedata Updater to cache <code>The Weedy Files</code>.</del><blockquote>
+  <p>This change was undone as google does not send the actual sheet but only a session token. Needs rework.</p>
+  </blockquote>
+  </li>
+  </ul>
+  <p><strong>Fixes:</strong></p>
+  <ul>
+  <li>Fixed an issue where Operator Emotes would not preload when event data is updated outside of gamedata updates.</li>
+  <li>Fixed Leto&#39;s name.</li>
+  <li>Fixed a routing issue to github servers for faster gamedata downloads.</li>
+  <li>Partly Fixed Stage images in <code>w!stage</code>. It should display the right image now and not a placeholder image. This needs more testing to be sure.<blockquote>
+  <p>This is not that easy since I haven&#39;t found any info how the game selects the stage image internally. Gamedata itself does not have any entry for stage images and I will not download every single stage to extract this crap.</p>
+  </blockquote>
+  </li>
+  </ul>
+  <p><strong>Updates:</strong></p>
+  <ul>
+  <li>Added &quot;a few&quot; (54) more aliases for operators.</li>
+  <li>Added additional text to the error message when you try to view an operators waifu. <blockquote>
+  <p><code>w!waifu Lappland</code> for example.</p>
+  </blockquote>
+  </li>
+  <li>Added <code>Kirin X Yato</code> alias for <code>Kirin R Yato</code> since she was renamed in CN.</li>
+  <li>Added an Alias for Eyja Alter to handle the <code>í</code>.</li>
+  <li>Updated Gamedata updater to use the new repository for EN text files.</li>
+  <li><code>w!operator</code> will now link to the new Arknights Wiki in the title.<blockquote>
+  <p>This should work for everyone, if you find an invalid link, pls tell me.</p>
+  </blockquote>
+  </li>
+  <li><code>w!item</code> will now link to the new Arknights Wiki in the title.<blockquote>
+  <p>Turns out not every item is named the same on the wiki. If an important item does not link correctly, pls tell me.</p>
+  </blockquote>
+  </li>
+  <li><code>w!stage</code> will now link to the new Arknights Wiki for Story, Event and Paradox Stages.</li>
+  <li>Stage names for Annihilation ( for example: <code>anni21</code>) are now automatically added and do not require me to add them to a list anymore.</li>
+  <li>Fixed an issue that would leak user or server specific characters into the public dataset.<blockquote>
+  <p>Sorry, no more Darth Vader for you.</p>
+  </blockquote>
+  </li>
+  <li>Added Fuzzy search to <code>w!item</code> when the searched Item is not found.<blockquote>
+  <p>The results are limited to 12 for now.
+  No need to type <code>Incandescent Alloy Block</code> anymore, just type <code>alloy block</code> or <code>alloy</code> and select the 2nd one.</p>
+  </blockquote>
+  </li>
+  <li>Updated Drop Stages in <code>w!item</code> to only show drop rates with more than 10 samples.</li>
+  </ul>
+  <p><strong>Reaction Roles (still in alpha):</strong></p>
+  <ul>
+  <li>New: Groups now show the amount of roles added to the message. If the amount does not show up yet send me a dm.</li>
+  <li>Planned: Role description - Add a short text to roles to explain what they do.</li>
+  <li>Planned: Replace Role</li>
+  <li>Planned: Add a Mode to only allow one role to be selected.</li>
+  </ul>
+  
+ 
+</body>
+</html>
